@@ -2,7 +2,7 @@ package agent
 
 import (
 	"fmt"
-	"github.com/Draztick/lokic2/internal/agent/config"
+	"github.com/Draztick/lokic2/internal/config"
 	"net/http"
 	"io"
 	"log"
