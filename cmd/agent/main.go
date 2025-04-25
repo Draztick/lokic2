@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/Draztick/lokic2/internal/agent/agent"
-	"github.com/Draztick/lokic2/internal/agent/config"
+	"github.com/Draztick/lokic2/internal/agent"
+	"github.com/Draztick/lokic2/internal/config"
 	"os"
 	"os/signal"
 	"syscall"
