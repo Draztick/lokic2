@@ -1,11 +1,14 @@
-package routers
+package router
 
 import (
 	"log"
-	"net/http")
+	"net/http"
+)
 
 func RootHandler(w http.ResponseWriter, r *http.Request) {
-	log.Printf(format: "You hit the endpoint: %s\n", r.URL.Path)
 
-	w.Write([]byte("Hello World!"))
+	log.Printf("Endpoint has been hit: %s\n", r.URL.Path)
+
+	w.Write([]byte("I'm Mister Derp!"))
+
 }
